@@ -1,0 +1,162 @@
+*{
+    *{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px auto;
+        padding: 0px;
+        /* background-image: url(../hinh/Image20240225155240.png); */
+    }
+}
+body{
+    width: 960px;
+    height: 100vh;
+    position: relative;
+    background-image: url(../hinh/Image20240225155240.png);
+}
+
+#nav{
+    width: 100%;
+    height: 40px;
+    background-color: #f1dceb;
+    display: flex;
+    position: relative;
+}
+#nav .option{
+    height: 50px;
+}
+#nav li,
+#nav p{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0px 30px 0px 10px;
+}
+#nav p{
+    color: red;
+}
+#nav a{
+    text-decoration: none;
+    font-weight: 10px;
+    font-weight: bold;
+}
+#nav input{
+    height: 15px;
+    margin-top: 10px;
+}
+#nav button{
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: rgb(109, 215, 236);
+    color: white;
+}
+#nav li:hover a{
+    color: yellow;
+}
+#header{
+    width: 100%;
+    height: 160px;
+}
+#header img{
+    width: 960px;
+}
+.content{
+    height: 500px;
+        background-color: rgb(169, 234, 234);
+
+}
+#Section,#aside{
+    float: left;
+}
+#Section{
+    height: 400px;
+    width: 70%;
+}
+.sub-sec{
+    height: 450px;
+    display: flex;
+
+}
+#Section h1{
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+}
+
+#Section p
+{
+    width: 50%;
+    max-width: 50%;
+}
+#Section .form{
+   width: 40%;
+    border-radius: 5%;
+    border: 1px solid black;
+    position: relative;
+    height: 400px;
+}
+.form h4{
+    position: absolute;
+    top: -10px;
+    background-color: white;
+    margin-left: 5px;
+}
+.form .css
+{
+    display: block;
+    height: 30px;
+    width: 200px;
+    margin: 15px 20px;
+}
+.form .last-bt{
+    font-size: 20px;
+    margin-left: 40px;
+    box-shadow: 5px 10px 10px ;
+    background-color: rgb(208, 205, 205);
+}
+.gd{
+    margin-left: 20px;
+    display: block;
+}
+.last-ip{
+    margin-left: 20px;
+  
+}
+
+.aside{
+    width: 30%;
+    height: 500px;
+    float: left;
+    background: white;
+}
+
+.aside h2{
+    background: white;
+    color: red; text-align: center;
+ border-bottom: 1px dotted red;   
+}
+
+.aside img{
+    width: 100%;
+    object-fit: contain;
+}
+
+#h2:hover,
+#h1:hover,
+#h3:hover{
+    transform: rotate(20deg);
+}
+#Footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(224, 142, 55);
+}
+.l{
+    margin-top: 25px;
+}
+.r{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
